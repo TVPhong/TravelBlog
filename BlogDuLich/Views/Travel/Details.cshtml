@@ -1,0 +1,58 @@
+﻿@model BlogDuLich.Models.Travel
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<h1>Travel around Viet Nam</h1>
+
+<div>
+    <h4>Travel</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Adress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Adress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descriptions)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descriptions)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Emotions)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Emotions)
+        </dd>
+    </dl>
+</div>
+<div>  
+    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-sm btn-outline-danger">Xóa</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-sm btn-outline-warning">Chỉnh sửa</a>
+    <a asp-action="Read" asp-route-id="@Model.Id" class="btn btn-sm btn-outline-dark"> Đọc thêm </a>
+    <a asp-action="Index" class ="btn btn-sm btn-outline-Secondary">Quay trở lại trang trước</a>
+  
+</div>
+

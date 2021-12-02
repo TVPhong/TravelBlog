@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<ArrayOfTravel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Travel>
+    <Id>1</Id>
+    <Name>Phố cổ Hội An</Name>
+    <Adress>Quảng Nam, Việt Nam</Adress>
+    <Year>1999</Year>
+    <Descriptions>Hội An là một thành phố trực thuộc tỉnh Quảng Nam, Việt Nam. Phố cổ Hội An từng là một thương cảng quốc tế sầm uất, gồm những di sản kiến trúc đã có từ hàng trăm năm trước, được UNESCO công nhận là di sản văn hóa thế giới từ năm 1999.</Descriptions>
+    <Emotions>Thích những lúc đi bộ dạo quanh khu phố đèn lồng đầy đủ sắc màu, thích ngắm nhìn những tòa nhà cổ kính trăm tuổi, ánh đèn lung linh trên sông Hoài, thích thưởng thức cao lầu và hến trộn ở cầu Cẩm Nam và thích luôn cả những âm vực nghe có vẻ nặng nề nhưng chứa đựng sự chân chất và mộc mạc đến lạ thường.</Emotions>
+  </Travel>
+  <Travel>
+    <Id>2</Id>
+    <Name>Vịnh Hạ Long1</Name>
+    <Adress>Quảng Ninh,Việt Nam</Adress>
+    <Year>1994</Year>
+    <Descriptions>Vịnh Hạ Long là một vịnh nhỏ thuộc phần bờ tây vịnh Bắc Bộ tại khu vực biển Đông Bắc Việt Nam, bao gồm vùng biển đảo của thành phố Hạ Long thuộc tỉnh Quảng Ninh.</Descriptions>
+    <Emotions>Một lần đến Vịnh hạ Long tôi đã tham quan và khám phá các Hòn Trống Mái, Hòn Con Cóc, Hang Sửng Sốt… trải nghiệm chèo thuyền kayak quanh các hòn đảo chiêm ngưỡng vẻ đẹp của rừng và biển. </Emotions>
+  </Travel>
+  <Travel>
+    <Id>2</Id>
+    <Name>ểwfdsf</Name>
+    <Adress>dfdsfdsf</Adress>
+    <Year>3</Year>
+    <Descriptions>dsfdsfdsf</Descriptions>
+    <Emotions>fsdfsf</Emotions>
+  </Travel>
+  <Travel>
+    <Id>2</Id>
+    <Name>1111111</Name>
+    <Adress>1111</Adress>
+    <Year>3</Year>
+    <Descriptions>121212</Descriptions>
+    <Emotions>12121212</Emotions>
+  </Travel>
+  <Travel>
+    <Id>2</Id>
+    <Name>dsfdsfdsf</Name>
+    <Adress>dfdsfsdfggh</Adress>
+    <Year>0</Year>
+    <Descriptions>sadsadad</Descriptions>
+    <Emotions>uyuiyuiyu</Emotions>
+  </Travel>
+  <Travel>
+    <Id>2</Id>
+    <Name>ytuytuytu</Name>
+    <Adress>,hkhjkhjk</Adress>
+    <Year>3</Year>
+    <Descriptions>kjhkhjkh</Descriptions>
+    <Emotions>ưqewqe</Emotions>
+  </Travel>
+  <Travel>
+    <Id>2</Id>
+    <Name>fdsdfdsfsdfs</Name>
+    <Adress>gfhgfhjk</Adress>
+    <Year>2</Year>
+    <Descriptions>43243423</Descriptions>
+    <Emotions>klkjlkjl</Emotions>
+  </Travel>
+</ArrayOfTravel>

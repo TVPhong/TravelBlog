@@ -7,6 +7,7 @@
     <Year>1999</Year>
     <Descriptions>Hội An là một thành phố trực thuộc tỉnh Quảng Nam, Việt Nam. Phố cổ Hội An từng là một thương cảng quốc tế sầm uất, gồm những di sản kiến trúc đã có từ hàng trăm năm trước, được UNESCO công nhận là di sản văn hóa thế giới từ năm 1999.</Descriptions>
     <Emotions>Thích những lúc đi bộ dạo quanh khu phố đèn lồng đầy đủ sắc màu, thích ngắm nhìn những tòa nhà cổ kính trăm tuổi, ánh đèn lung linh trên sông Hoài, thích thưởng thức cao lầu và hến trộn ở cầu Cẩm Nam và thích luôn cả những âm vực nghe có vẻ nặng nề nhưng chứa đựng sự chân chất và mộc mạc đến lạ thường.</Emotions>
+    <DataFile>Quản-lý-cửa-hàng-hoa-quả-sạch.docx</DataFile>
   </Travel>
   <Travel>
     <Id>2</Id>
@@ -55,5 +56,12 @@
     <Year>2</Year>
     <Descriptions>43243423</Descriptions>
     <Emotions>klkjlkjl</Emotions>
+  </Travel>
+  <Travel>
+    <Id>2</Id>
+    <Name>lkl</Name>
+    <Adress>uyuio</Adress>
+    <Year>0</Year>
+    <DataFile>Screenshot (172).png</DataFile>
   </Travel>
 </ArrayOfTravel>

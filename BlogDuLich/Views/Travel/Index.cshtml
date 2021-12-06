@@ -7,8 +7,8 @@
 <p> Travels Blog</p>
 <div class="mb-3">
     <a asp-action="Create" class="btn btn-outline-primary">Tạo bài viết mới</a>
-    <form class="input-group w-50 float-right" asp-action="Search" method="get">
-    <input type="text" class="form-control" placeholder="Search for" name="term" />
+    <form class="input-group w-50 float-right" asp-controlle="Travel" asp-action="Search" method="get">
+    <input type="text" class="form-control" placeholder="Search for" id="word" name="word" />
     <div class="input-group-append">
         <button class="btn btn-outline-secondary" type="submit">Search</button>
     </div>

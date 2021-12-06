@@ -105,15 +105,16 @@ namespace BlogDuLich.Models
         }
 
         public Travel[] Get(string search)
-        {
-            string s = search.ToLower();
+        {  
+            string s = search.ToLower();                 
             return Travels.Where(trv =>
-                trv.Name.Contains(s) ||
-                trv.Adress.Contains(s) ||
-                trv.Descriptions.Contains(s) ||
-                trv.Emotions.Contains(s) ||
-                trv.Year.ToString() == s
-            ).ToArray();
+                 trv.Name.Contains(s) ||
+                 trv.Adress.Contains(s) ||
+                 trv.Descriptions.Contains(s) ||
+                 trv.Emotions.Contains(s) ||
+                 trv.Year.ToString() == s
+             ).ToArray();   
+
         }
 
         public (Travel[] travels, int pages, int page) Paging(int page)

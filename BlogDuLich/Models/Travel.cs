@@ -10,6 +10,7 @@ namespace BlogDuLich.Models
 {
     public class Travel
     {
+       
         public int Id { get; set; }
 
         [Required, DisplayName("Tên khu du lịch")]

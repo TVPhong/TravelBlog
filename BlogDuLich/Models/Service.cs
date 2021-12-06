@@ -104,14 +104,14 @@ namespace BlogDuLich.Models
             return (memory, type);
         }
 
-        public Travel[] Get(string search)
+        public Travel[] Get(string search) 
         {  
-            string s = search.ToLower();                 
+            var s = search.ToLower();                 
             return Travels.Where(trv =>
-                 trv.Name.Contains(s) ||
-                 trv.Adress.Contains(s) ||
-                 trv.Descriptions.Contains(s) ||
-                 trv.Emotions.Contains(s) ||
+                 trv.Name.ToLower().Contains(s) ||
+                 //trv.Adress.ToLower().Contains(s) ||
+                 ////trv.Descriptions.ToLower().Contains(s) ||
+                 //trv.Emotions.ToLower().Contains(s) ||
                  trv.Year.ToString() == s
              ).ToArray();   
 

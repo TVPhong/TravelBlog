@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ArrayOfTravel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Travel>
+    <Id>1</Id>
+    <Name>Phố cổ Hội An</Name>
+    <Adress>Quảng Nam, Việt Nam</Adress>
+    <Year>1999</Year>
+    <Descriptions>Hội An là một thành phố trực thuộc tỉnh Quảng Nam, Việt Nam. Phố cổ Hội An từng là một thương cảng quốc tế sầm uất, gồm những di sản kiến trúc đã có từ hàng trăm năm trước, được UNESCO công nhận là di sản văn hóa thế giới từ năm 1999.</Descriptions>
+    <Emotions>Thích những lúc đi bộ dạo quanh khu phố đèn lồng đầy đủ sắc màu, thích ngắm nhìn những tòa nhà cổ kính trăm tuổi, ánh đèn lung linh trên sông Hoài, thích thưởng thức cao lầu và hến trộn ở cầu Cẩm Nam và thích luôn cả những âm vực nghe có vẻ nặng nề nhưng chứa đựng sự chân chất và mộc mạc đến lạ thường.</Emotions>
+    <DataFile>Quản-lý-cửa-hàng-hoa-quả-sạch.docx</DataFile>
+  </Travel>
+  <Travel>
+    <Id>2</Id>
+    <Name>Hồ Gươm</Name>
+    <Adress>Hà Nội</Adress>
+    <Year>2012</Year>
+    <Descriptions>Đẹp</Descriptions>
+    <Emotions>Tuyệt Vời</Emotions>
+    <DataFile>e041aeff9e0c55520c1d (1).jpg</DataFile>
+  </Travel>
+  <Travel>
+    <Id>4</Id>
+    <Name>Chùa Một Cột</Name>
+    <Adress>Hà Nội</Adress>
+    <Year>2000</Year>
+    <Descriptions>Xấu</Descriptions>
+    <Emotions>Buồn</Emotions>
+  </Travel>
+</ArrayOfTravel>
